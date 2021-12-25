@@ -1,0 +1,86 @@
+header{
+    margin: 10px auto;
+    max-width: 85%;
+    display:-webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+header .logo img{
+    max-width: 3500px;
+}
+
+header .mnu_top li{
+    display: inline-block;
+    margin-right: 75px;
+}
+
+header .mnu_top li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600
+    transition: transform .6s ease;
+}
+
+header .mnu_top li a:hover{
+    color:#eb5959;
+    text-decoration:none;
+    transform: scale(1.05);
+}
+
+.features {
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+    margin-top:20px;
+    text-align:center;
+    width:85%;
+}
+
+.features h1 {font-size: 50px;}
+.features p {max-width: 400px; margin:20px auto}
+
+.blog {
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+    margin-top:20px;
+    text-align:center;
+    width:85%;
+}
+
+.about h1 {margin-left: auto;
+    margin-right: auto;
+    color:black;
+    margin-top:20px;
+    text-align:center;
+    width:85%;
+}
+
+.about a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600
+    transition: transform .6s ease;
+}
+
+.about a:hover{
+    color:#eb5959;
+    text-decoration:none;
+    transform: scale(1.0001);
+}
+
+body {
+    background-color: white;
+    padding: 25px;
+    font-family: 'Russo One';
+}
