@@ -37,14 +37,21 @@
         <li>
           <a href="{% url 'blog' %}"><i class="fas fa-tools"></i>Оборудование</a>
         </li>
-        <li>
-          <a href="{% url 'about' %}"
-            ><i class="far fa-address-card"></i>О нас</a
-          >
-        </li>
       </ul>
     </header>
   <div class="features">
+    <div class="protherm">
+      <img src="{% static 'main/img/protherm1.png' %}" />
+      <figcaption>
+          Напольный котел Protherm
+      </figcaption>
+    </div>
+    <div class="protherm1">
+      <img src="{% static 'main/img/Vaillant.jpg' %}" />
+<figcaption>
+          Настенный котел Vaillant
+      </figcaption>
+    </div>
 	<h1>Добро пожаловать!<br></h1>
 	<p> </p>
 	<p>Мы предоставляем следующие услуги:</p>
@@ -66,7 +73,9 @@
           <input type="radio" name="slider" id="switch3" />
           <input type="radio" name="slider" id="switch4" />
           <input type="radio" name="slider" id="switch5" />
-
+          <figcaption>
+              Наши работы: теплый пол
+          </figcaption>
           <div id="slides">
             <div id="overflow">
               <div class="image">
@@ -95,5 +104,24 @@
           </div>
         </article>
     </div>
+  <footer>
+       <div class="social">
+            <div class="contact">
+            <p>Александр Прусаков<br>
+            +7(904)032-58-00</p>
+            </div>
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B79040325800&text&app_absent=0"
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i>WhatsApp</a
+            >
+            <a
+              href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fwww.instagram.com%2Ftepliy_dom.kovrov%2F%3Futm_medium%3Dcopy_link"
+              target="_blank"
+              ><i class="fab fa-instagram"></i>Instagram</a
+            >
+       </div>
+            <div class="rights">pu96y@gmail.com &copy 2021</div>
+    </footer>
   </body>
 </html>

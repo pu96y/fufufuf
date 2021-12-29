@@ -7,17 +7,19 @@ header{
     -ms-align-items: center;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid black;
     justify-content: space-between;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 header .logo img{
     max-width: 3500px;
+    padding-top: 20px;
 }
 
 header .mnu_top li{
     display: inline-block;
     margin-right: 75px;
+    padding-top: 20px;
 }
 
 header .mnu_top li a{
@@ -25,7 +27,7 @@ header .mnu_top li a{
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-weight: 600
+    font-weight: 600;
     transition: transform .6s ease;
 }
 
@@ -79,8 +81,109 @@ header .mnu_top li a:hover{
     transform: scale(1.0001);
 }
 
+.protherm {
+    float: left;
+}
+
+.protherm1 {
+    float: right;
+}
+
 body {
     background-color: white;
     padding: 25px;
     font-family: 'Russo One';
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    padding: 1%;
+    background-color: #e8e8e8 ;
+    border-top: 2px solid silver;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.social{
+    float:left;
+    width: 50%;
+}
+
+.contact{
+}
+
+.rights{
+    float: left;
+    width: 50%;
+    text-align: right;
+    font-size: 8pt;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.prod-card {
+    width: 40%;
+    margin: 0.5em;
+    padding: 1em;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.prod-card img {
+    margin-bottom: 1em;
+}
+
+.prod-card p {
+    margin-top: 1em;
+}
+
+.prod-card a{
+    display: block;
+    text-decoration: none;
+    color: #0aa9ff;
+    font-size: 18px;
+    font-weight: 600
+    transition: transform .6s ease;
+}
+
+.prod-card a:hover{
+    color:#eb5959;
+    text-decoration:none;
+    transform: scale(1.0001);
+}
+
+.section-text {
+    -webkit-box-shadow: 0 3px 5px 0 #3d3d3d;
+    -moz-box-shadow: 0 3px 5px 0 #3d3d3d;
+    box-shadow: 0 3px 5px 0 #3d3d3d;
+    padding: 1em 1em 0.5em 1em;
+}
+
+p {
+    margin-bottom: 0.5em;
+}
+
+img {
+    max-width: 100%;
 }
