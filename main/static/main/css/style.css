@@ -1,7 +1,8 @@
 #slider { /*положение слайдера*/
     position: relative;
 	text-align: center;
-    top: 80px;
+    margin: 80px;
+	top:15px;
 }
 
 #slider{ /*центровка слайдера*/

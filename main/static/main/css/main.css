@@ -43,7 +43,10 @@ header .mnu_top li a:hover{
     color:black;
     margin-top:20px;
     text-align:center;
-    width:85%;
+    width:100%;
+    position: relative;
+    top:-20px;
+
 }
 
 .features h1 {font-size: 50px;}
@@ -83,15 +86,22 @@ header .mnu_top li a:hover{
 
 .protherm {
     float: left;
+    position: relative;
+    left:100px;
+    top:30px;
 }
 
 .protherm1 {
     float: right;
+    position: relative;
+    right:100px;
+    top:30px;
+
 }
 
 body {
     background-color: white;
-    padding: 25px;
+    padding: 0px;
     font-family: 'Russo One';
 }
 
@@ -122,7 +132,10 @@ footer {
     width: 50%;
 }
 
-.contact{
+.social a:hover{
+    color:#eb5959;
+    text-decoration: none;
+    transform: scale(1.0001);
 }
 
 .rights{
