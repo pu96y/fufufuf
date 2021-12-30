@@ -46,7 +46,6 @@ header .mnu_top li a:hover{
     width:100%;
     position: relative;
     top:-20px;
-
 }
 
 .features h1 {font-size: 50px;}
@@ -74,7 +73,7 @@ header .mnu_top li a:hover{
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-weight: 600
+    font-weight: 600;
     transition: transform .6s ease;
 }
 
@@ -176,7 +175,7 @@ footer {
     text-decoration: none;
     color: #0aa9ff;
     font-size: 18px;
-    font-weight: 600
+    font-weight: 600;
     transition: transform .6s ease;
 }
 

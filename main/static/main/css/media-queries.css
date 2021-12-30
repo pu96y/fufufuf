@@ -1,0 +1,106 @@
+@media only screen and (max-width: 992px){
+    .footer{
+        width: 100%;
+        float: left;
+        padding: 1%;
+        background-color: #e8e8e8;
+        border-top: 2px solid silver;
+        margin-top: 31px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .features{
+        margin-left: auto;
+        margin-right: auto;
+        color:black;
+        margin-top:20px;
+        text-align:center;
+        width:100%;
+        position: relative;
+        top:-20px;
+        font-size: 12px;
+        left: -2px;
+    }
+    .features h1{
+        font-size: 26px;
+    }
+
+    .protherm {
+        display: none;
+    }
+
+    .protherm1 {
+        display: none;
+    }
+
+    .all{
+        width:80%;
+        position: relative;
+        left:42px
+
+    }
+    #active{
+        position: relative;
+        width:100%;
+        top:10px;
+    }
+    #controls{
+        position: relative;
+        width: 90%;
+        height: 100%;
+        top: -21px;
+        left: 17px;
+    }
+    .about a {
+       display: block;
+       text-decoration: none;
+       color: yellow;
+       font-size: 18px;
+       font-weight: 600
+       transition: transform .6s ease;
+   }
+
+
+    .social {
+        float: left;
+        width: 50%;
+        font-size: 12px;
+    }
+    .rights{
+        float: left;
+        width: 50%;
+        text-align: right;
+        font-size: 6px;
+    }
+
+    #gallery h3{
+        font-size: 16px!important;
+    }
+
+    .prod-card a{
+        font-size: 16px!important;
+    }
+
+    header .mnu_top li a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        font-weight: 600;
+        transition: transform .6s ease;
+        position: relative;
+        text-align: right;
+    }
+
+    header .logo img{
+        max-width: 3500px;
+        padding-top: 20px;
+        position: relative;
+        right: -18px;
+        top: -5px;
+    }
+}
+
+
